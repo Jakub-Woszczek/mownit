@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Mantiss_change.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Mantiss_change.dir/objects.a @CMakeFiles\Mantiss_change.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Mantiss_change.dir/objects.a -Wl,--no-whole-archive -o Mantiss_change.exe -Wl,--out-implib,libMantiss_change.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Mantiss_change.dir\linkLibs.rsp
