@@ -1,0 +1,41 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VSCode settings
+.vscode/
+
+# OS X system files
+.DS_Store
+
+# Julia artifacts and build outputs
+.julia/
+*.jl.cov
+*.jl.mem
+*.ji
+*.dSYM/
+Manifest.toml
+Project.toml
+
+# Build and compiled outputs
+build/
+deps/
+logs/
+
+# Temporary or backup files
+*.tmp
+*.bak
+*~
+
+# Notebook-specific temp outputs
+Untitled.ipynb
+[uU]ntitled*
+
+# HTML, if generated from notebooks
+*.html
+
+# Pixi or other julia env managers
+.pixi/
+
+# Jupyter Notebook internal db
+.jupyter_ystore.db
