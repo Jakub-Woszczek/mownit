@@ -24,8 +24,8 @@ function interpolations_time_comparision()
     original_function(x) = sin(x)*exp(-x)*10
     jit_warmup()
         
-    # for samples_amount in 1500:500:5000    <-- jest git
-    for samples_amount in 150:50:500
+    for samples_amount in 1500:500:5000 #    <-- jest git
+    # for samples_amount in 150:50:500
         push!(x_test_vals, samples_amount)
 
         # tymczasowe listy do przechowywania 10 wyników
