@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\matrixMultiplicationC.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\matrixMultiplicationC.dir/objects.a @CMakeFiles\matrixMultiplicationC.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\matrixMultiplicationC.dir/objects.a -Wl,--no-whole-archive -o matrixMultiplicationC.exe -Wl,--out-implib,libmatrixMultiplicationC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\matrixMultiplicationC.dir\linkLibs.rsp
