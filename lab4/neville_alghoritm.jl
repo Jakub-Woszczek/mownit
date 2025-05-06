@@ -28,12 +28,10 @@ function nevilleAlgo(sample_x::Vector{Float64}, sample_y::Vector{Float64}, x::Fl
     n = length(sample_x)
     P = zeros(Float64, n, n)
 
-    # Inicjalizacja przekątnej
     for i in 1:n
         P[i, i] = sample_y[i]
     end
 
-    # Wypełnianie tablicy według wzoru Nevilla
     for j in 1:n-1
         for i in 1:(n-j)
             xi = sample_x[i]
@@ -42,5 +40,5 @@ function nevilleAlgo(sample_x::Vector{Float64}, sample_y::Vector{Float64}, x::Fl
         end
     end
 
-    return P[1, n]  # Wynik interpolacji
+    return P[1, n]
 end
